@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.formularioRegistrate {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+  border: solid 5px;
+  border-color: #51ff00;
+  font-size: 15px;
+}
+
+.boton {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  background-color: #51ff00;
+  color: black;
+}
+
+footer {
+  width: 10%;
+  margin-top: 40px;
+  background-color: white;
+}
+
+footer .iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 15px 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+footer .iconos :hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+footer .iconos :hover .insta {
+  width: 60px;
+  height: 60px;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
