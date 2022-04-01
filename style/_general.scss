@@ -19,7 +19,7 @@
 }
 
 input {
-  width: 100%;
+  width: $width;
   height: 50px;
   padding-left: 1rem;
 }
@@ -32,9 +32,9 @@ input {
 .boton {
   border-radius: 3px;
   display: inline-block;
-  background-color: #51ff00;
+  background-color: $colorLT;
   color: black;
-  width: 100%;
+  width: $width;
 }
 
 .formularioReg {
@@ -43,10 +43,10 @@ input {
 }
 
 .whatsapp a {
-  color: #51ff00;
-  font-size: 2rem;
+  color: $colorLT;
+  font-size: $fontsize;
   text-decoration: none;
   &:hover {
-    color: #d68930;
+    color: #000000;
   }
 }
