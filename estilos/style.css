@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .formularioRegistrate {
@@ -11,9 +11,26 @@
   padding: 20px;
   margin: 0 auto;
   width: 500px;
+  /* 
   border: solid 5px;
-  border-color: #51ff00;
+  border-color: #51ff00; */
   font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .formularioRegistrate {
+    width: 250px;
+  }
+}
+
+input {
+  width: 100%;
+  height: 50px;
+}
+
+.inputRadio {
+  height: 20px;
+  width: 25%;
 }
 
 .boton {
@@ -22,6 +39,7 @@
   padding: 20px 15px;
   background-color: #51ff00;
   color: black;
+  width: 100%;
 }
 
 /* footer {
@@ -48,7 +66,7 @@
     }
   }
 }*/
-.navlogitech {
+.pepe {
   z-index: 50;
 }
 /*# sourceMappingURL=style.css.map */
