@@ -74,9 +74,16 @@
 
   <form class="formularioRegistrate" action="">
       
-    <legend>Ingrese sus Datos:</legend>
-    <br>
-    <label for="nombre">Nombre/s:</label>
+    <legend class="display-3 p-4">Test Drive</legend>
+
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Seleccione un Modelo</option>
+      <option value="1">Porsche Taycan S</option>
+      <option value="2">Volkswagen ID.4</option>
+      <option value="3">Audi e-tron</option>
+    </select>
+    
+    <label for="nombre" class="p-2">Nombre/s:</label>
     <br>
     <input class="field"
       type="text"
@@ -87,7 +94,7 @@
     />
 
     <br />
-    <label for="apellido">Apellido/s:</label>
+    <label for="apellido" class="p-2">Apellido/s:</label>
     <br>
     <input  class="field"
       type="text"
@@ -96,33 +103,24 @@
       id="apellido"
     />
   
-  <div>
-    <br>
-    Hombre
-    <input class="inputRadio" type="radio" name="sexo" id="hombre" />
-    <br>
-    Mujer
-    <input class="inputRadio" type="radio" name="sexo" id="mujer" />
-  </div>
-  <br>
-  <div>
-    <label for="email">Correo Electronico:</label>
+  
+    <label for="email" class="p-2">Correo Electronico:</label>
     <br>
     <input class="field" type="text" name="email" id="email" placeholder="coderhouse@gmail.com">
     <br>
-    <label for="email">Repita:</label>
+    <label for="email" class="p-2">Repita:</label>
     <br>
     <input class="field" type="text" name="email" id="email" placeholder="Su correo debe coincidir con el de arriba">
 
   </div>
 
   <br>
-  <label for="contraseña">Contraseña:</label>
+  <label for="contraseña" class="p-2">Contraseña:</label>
   <br>
   <input class="field" type="password" name="contraseña" id="contraseña">
 
   <br>
-  <label for="contraseña">Repita:</label>
+  <label for="contraseña" class="p-2">Repita:</label>
   <br>
   <input class="field" type="password" name="contraseña" id="contraseña">
   <br>
@@ -136,7 +134,7 @@
     <input type="checkbox" class="inputRadio" name="acepta" value="1" />
     <br />
     <br>
-    <input class="boton" type="button" value="Registrarse" />
+    <input class="boton" type="button" value="Enviar" />
   </fieldset>
 </form>
   </div>
