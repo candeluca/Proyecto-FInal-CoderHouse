@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .formularioRegistrate {
@@ -24,37 +24,31 @@
   color: black;
 }
 
-footer {
+/* footer {
   width: 10%;
   margin-top: 40px;
   background-color: white;
-}
 
-footer .iconos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 15px 10px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    transition: all 0.5s ease;
 
-footer .iconos :hover {
-  -webkit-transform: scale(1.3, 1.3);
-          transform: scale(1.3, 1.3);
-}
+    :hover {
+      transform: scale(1.3, 1.3);
 
-footer .iconos :hover .insta {
-  width: 60px;
-  height: 60px;
-  font-size: 10px;
+      .insta {
+        width: 60px;
+        height: 60px;
+        font-size: 10px; 
+      }
+    }
+  }
+}*/
+.navlogitech {
+  z-index: 50;
 }
 /*# sourceMappingURL=style.css.map */
