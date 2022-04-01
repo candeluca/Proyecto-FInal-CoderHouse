@@ -72,10 +72,11 @@
 
 
 
-  <form class="formularioRegistrate" action="">
+  <form class="formularioRegistrate field" action="">
       
-    <legend class="display-3 p-4">Test Drive</legend>
+    <legend class="display-3 p-4 pb-4">TEST DRIVE</legend>
 
+    <h4>
     <select class="form-select" aria-label="Default select example">
       <option selected>Seleccione un Modelo</option>
       <option value="1">Porsche Taycan S</option>
@@ -102,6 +103,15 @@
       placeholder="Escriba su apellido"
       id="apellido"
     />
+
+    <label for="DNI" class="p-2">DNI:</label>
+    <br>
+    <input  class="field"
+      type="text"
+      name="DNI"
+      placeholder="Escriba su DNI (sin puntos)"
+      id="DNI"
+    />
   
   
     <label for="email" class="p-2">Correo Electronico:</label>
@@ -114,17 +124,14 @@
 
   </div>
 
-  <br>
-  <label for="contraseña" class="p-2">Contraseña:</label>
-  <br>
-  <input class="field" type="password" name="contraseña" id="contraseña">
 
   <br>
-  <label for="contraseña" class="p-2">Repita:</label>
+  <label for="celular" class="p-2">Teléfono:</label>
   <br>
-  <input class="field" type="password" name="contraseña" id="contraseña">
+  <input class="field" type="number" name="celular" id="celular">
   <br>
   <br>
+</h4>
 
 
   <div>Acepta los términos y condiciones?</div>
@@ -138,10 +145,9 @@
   </fieldset>
 </form>
   </div>
+  
 
    
-
-
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
