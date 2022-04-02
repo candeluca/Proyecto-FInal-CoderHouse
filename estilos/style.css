@@ -57,6 +57,11 @@ input {
   color: #000000;
 }
 
+hr {
+  height: 1px;
+  border-color: #51ff00;
+}
+
 /* footer {
   width: 10%;
   margin-top: 40px;
