@@ -6,7 +6,7 @@ https://candeluca.github.io/Proyecto-FInal-CoderHouse/
 
 https://www.ips.com.ar/public/uploads/news/1310211232_Movilidad-sustentable-Autos-electricos.jpg
 
-# Título del Proyecto
+# Sobre el Proyecto
 
 Este es un proyecto creado para el curso de programacion Full-Stack que estoy haciendo en CoderHouse. Se basa en una pagina dedicada a vender innovadores autos electricos con el fin de hacerle un bien al medio ambiente. 
 
